@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zenith Public High School Sukkur | Bright Future For Your Children</title>
+<meta name="description" content="Zenith Public High School, Sukkur - Nurturing academic excellence from Montessori to Class 10. Admissions open.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: '#001f3f',
+          'navy-700': '#0a2a52',
+          'navy-600': '#0f376b',
+          'navy-soft': '#e8eef5',
+          gold: '#FFB703',
+          'gold-dark': '#e0a200',
+          'gold-soft': '#fff7e0',
+          cream: '#f9f7f3',
+          ink: '#1d2433',
+          muted: '#5b6578'
+        },
+        fontFamily: {
+          sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+        },
+        boxShadow: {
+          'soft': '0 12px 40px -12px rgba(0, 31, 63, 0.12)',
+          'soft-lg': '0 24px 60px -16px rgba(0, 31, 63, 0.14)',
+          'gold-glow': '0 10px 30px -10px rgba(255, 183, 3, 0.45)',
+        }
+      }
+    }
+  }
+</script>
+<style type="text/tailwindcss">
+  body { font-family: 'Inter', system-ui, sans-serif; color: #1d2433; background-color: #fcfcfa; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+  .nav-link { @apply text-[13.5px] font-semibold tracking-wide text-slate-600 hover:text-navy transition-colors; }
+  .nav-link.active { @apply text-navy; }
+  .hero-halo { background: radial-gradient(60% 80% at 85% 40%, rgba(255,183,3,0.10) 0%, rgba(255,183,3,0.0) 60%), radial-gradient(50% 50% at 20% 80%, rgba(0,31,63,0.045) 0%, transparent 70%); }
+  .zenith-divider { width: 52px; height: 3px; background: #FFB703; border-radius: 2px; }
+  .soft-card { @apply bg-white rounded-[22px] border border-slate-200/80 shadow-soft; }
+  .feature-icon-wrap { @apply w-12 h-12 rounded-xl bg-gold-soft flex items-center justify-center text-navy; }
+  .grade-pill { @apply px-4 py-2 rounded-full text-[13px] font-semibold bg-white border border-slate-200 text-slate-700 shadow-sm; }
+  .focus-ring:focus { outline: none; box-shadow: 0 0 0 3px rgba(255,183,3,0.35); }
+</style>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23001f3f%22/><text y=%22.9em%22 x=%220.14em%22 font-size=%2268%22 fill=%22%23FFB703%22 font-family=%22Inter,sans-serif%22 font-weight=%22800%22>Z</text></svg>">
+</head>
+<body class="antialiased bg-[#fcfcfa]">
+  <!-- Top Announcement Bar -->
+  <div class="w-full bg-navy text-white text-[12.5px]">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-2.5 flex flex-wrap items-center justify-center lg:justify-between gap-x-6 gap-y-1">
+      <p class="font-medium text-slate-200">Admissions Open for Session 2025–2026 | Montessori to Class 10</p>
+      <div class="flex items-center gap-5 text-slate-300">
+        <a href="tel:+923337101006" class="hover:text-gold transition-colors">0333 7101006</a>
+        <span class="opacity-40">•</span>
+        <a href="mailto:zenithpss@gmail.com" class="hover:text-gold transition-colors">zenithpss@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="site-header" class="sticky top-0 z-50 bg-[#fcfcfa]/90 backdrop-blur-xl border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div class="h-[76px] flex items-center justify-between">
+        <!-- Logo -->
+       <a href="#home" class="flex items-center gap-3.5">
+    <img src="logo.png" alt="Zenith Public High School Logo" class="h-14 w-auto object-contain">
+</a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden lg:flex items-center gap-9">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#academics" class="nav-link">Academics</a>
+          <a href="#admissions" class="nav-link">Admissions</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <button id="applyBtnDesktop" class="hidden sm:inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-navy font-[700] text-[13.5px] px-5 py-2.5 rounded-full transition-all duration-200 shadow-gold-glow hover:shadow-none hover:translate-y-[1px]">
+            Apply Now
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+          </button>
+          <!-- Mobile menu button -->
+          <button id="mobileMenuBtn" class="lg:hidden w-11 h-11 rounded-full border border-slate-300 flex items-center justify-center text-navy hover:bg-slate-50 transition" aria-label="Open menu">
+            <svg id="menuIconOpen" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            <svg id="menuIconClose" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileNav" class="lg:hidden hidden border-t border-slate-200 bg-[#fcfcfa]">
+      <div class="px-5 sm:px-8 py-6 space-y-4 text-[15px] font-semibold">
+        <a href="#home" class="block text-navy mobile-nav-link">Home</a>
+        <a href="#about" class="block text-slate-600 mobile-nav-link">About</a>
+        <a href="#academics" class="block text-slate-600 mobile-nav-link">Academics</a>
+        <a href="#admissions" class="block text-slate-600 mobile-nav-link">Admissions</a>
+        <a href="#contact" class="block text-slate-600 mobile-nav-link">Contact</a>
+        <button id="applyBtnMobile" class="w-full mt-2 bg-gold text-navy font-bold py-3.5 rounded-full">Apply Now</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="relative hero-halo overflow-hidden scroll-mt-20">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 pt-14 md:pt-24 pb-20 lg:pb-28">
+        <div class="grid lg:grid-cols-12 gap-14 lg:gap-10 items-center">
+          <!-- Left -->
+          <div class="lg:col-span-6">
+            <div class="inline-flex items-center gap-2 bg-white border border-slate-200 rounded-full px-3.5 py-1.5 text-[11.5px] font-[700] text-slate-600 shadow-sm mb-6">
+              <span class="w-1.5 h-1.5 rounded-full bg-gold"></span>
+              EST. 1998 • SUKKUR, SINDH
+              <span class="hidden sm:inline text-slate-400 mx-1">•</span>
+              <span class="hidden sm:inline text-navy">Board Registered</span>
+            </div>
+
+            <h1 class="text-[42px] sm:text-[56px] lg:text-[64px] font-[900] tracking-[-0.035em] text-navy leading-[0.96]">
+              Bright Future<br>
+              Of Your Children<br>
+              <span class="text-slate-400 font-[800]">Is In Your Hand</span>
+            </h1>
+
+            <p class="mt-6 text-[17px] leading-relaxed text-muted max-w-[510px]">At Zenith Public High School, Sukkur, we build confident learners with strong character. Montessori to Class 10, with a clear focus on academic excellence, values, and real-world readiness.</p>
+
+            <div class="mt-8 flex flex-wrap gap-3.5">
+              <a href="#academics" class="inline-flex items-center gap-2 bg-navy hover:bg-navy-700 text-white font-bold text-[14px] px-6 py-3.5 rounded-full transition shadow-lg shadow-navy/10">
+                Explore Programs
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+              </a>
+              <button id="heroApplyBtn" class="inline-flex items-center gap-2 bg-white border border-slate-300 hover:border-slate-400 text-navy font-[700] text-[14px] px-6 py-3.5 rounded-full transition">
+                Admission Inquiry
+              </button>
+            </div>
+
+            <!-- Mini credibility row -->
+            <div class="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 text-[13px] text-slate-600">
+              <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gold-dark" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <span class="font-semibold text-slate-700">4.8 Parent Rating</span>
+              </div>
+              <div>Separate campuses for Boys & Girls</div>
+              <div>Affordable fee structure</div>
+            </div>
+          </div>
+
+          <!-- Right: Image Card -->
+          <div class="lg:col-span-6 relative">
+            <div class="relative rounded-[30px] overflow-hidden shadow-soft-lg bg-slate-200">
+              <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1400&q=80" alt="Students learning attentively in a bright classroom at Zenith Public High School Sukkur" class="w-full h-[460px] lg:h-[560px] object-cover" loading="eager">
+              <!-- Top left badge -->
+              <div class="absolute top-5 left-5 bg-white/95 backdrop-blur rounded-2xl px-4 py-3 shadow-soft">
+                <div class="text-[11px] font-bold tracking-wider text-slate-500 uppercase">BISE Sukkur</div>
+                <div class="text-[15px] font-[800] text-navy">98% Matric Pass Rate</div>
+                <div class="text-[11.5px] text-slate-500">Class of 2024</div>
+              </div>
+              <!-- Bottom floating stats -->
+              <div class="absolute bottom-5 left-5 right-5">
+                <div class="bg-white/96 backdrop-blur-xl rounded-[20px] shadow-soft-lg border border-white px-5 py-4 flex flex-wrap justify-between gap-4">
+                  <div>
+                    <div class="text-[26px] font-[900] text-navy tracking-tight">1200+</div>
+                    <div class="text-[12px] font-semibold text-slate-500">Students</div>
+                  </div>
+                  <div class="w-px bg-slate-200 hidden sm:block"></div>
+                  <div>
+                    <div class="text-[26px] font-[900] text-navy tracking-tight">27</div>
+                    <div class="text-[12px] font-semibold text-slate-500">Years of Excellence</div>
+                  </div>
+                  <div class="w-px bg-slate-200 hidden sm:block"></div>
+                  <div>
+                    <div class="text-[26px] font-[900] text-navy tracking-tight">1:22</div>
+                    <div class="text-[12px] font-semibold text-slate-500">Teacher Ratio</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Decorative gold accent -->
+            <div class="absolute -z-10 -right-8 -bottom-8 w-56 h-56 rounded-[40px] bg-gold/25 blur-[2px] hidden lg:block"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="border-y border-slate-200/90 bg-white">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-5 flex flex-wrap items-center justify-center lg:justify-between gap-y-3 gap-x-10 text-[12.5px] font-[700] text-slate-500 tracking-wide">
+        <span>BISE SUKKUR REGISTERED</span>
+        <span class="text-slate-300">•</span>
+        <span>ENGLISH & URDU MEDIUM</span>
+        <span class="text-slate-300">•</span>
+        <span>SCIENCE & COMPUTER LABS</span>
+        <span class="text-slate-300">•</span>
+        <span>SPORTS & CO-CURRICULAR</span>
+        <span class="text-slate-300 hidden lg:inline">•</span>
+        <span class="hidden lg:inline">MONTESSORI – CLASS 10</span>
+      </div>
+    </section>
+
+    <!-- MISSION & PHILOSOPHY -->
+    <section id="about" class="scroll-mt-24 bg-cream border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-20 lg:py-28">
+        <div class="max-w-2xl mb-12">
+          <div class="text-[11.5px] font-[800] tracking-widest text-gold-dark uppercase mb-3">Our Mission & Philosophy</div>
+          <h2 class="text-[34px] sm:text-[44px] font-[900] tracking-tight text-navy leading-[1.08]">A school where character leads, and curiosity thrives.</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-7 lg:gap-8">
+          <!-- Mission -->
+          <div class="soft-card p-9 lg:p-11">
+            <div class="flex items-start justify-between mb-6">
+              <h3 class="text-[24px] font-[800] text-navy tracking-tight">Our Mission</h3>
+              <span class="text-[12px] font-[800] text-slate-400 tracking-widest">01</span>
+            </div>
+            <div class="zenith-divider mb-6"></div>
+            <p class="text-[16.5px] leading-relaxed text-muted">
+              At Zenith School, our mission is to ignite a passion for academic excellence and lifelong learning. We empower students with the critical thinking, creativity, and resilience needed to reach their highest potential and lead with integrity in an ever-changing world.
+            </p>
+            <ul class="mt-7 space-y-3 text-[14.5px] text-slate-700">
+              <li class="flex gap-3"><span class="text-gold-dark mt-0.5">—</span>Strong foundations in English, Math, Science & Islamiat</li>
+              <li class="flex gap-3"><span class="text-gold-dark mt-0.5">—</span>Ethics, adab, and community service</li>
+              <li class="flex gap-3"><span class="text-gold-dark mt-0.5">—</span>Confidence building through speaking & leadership</li>
+            </ul>
+          </div>
+
+          <!-- Approach -->
+          <div class="soft-card p-9 lg:p-11 bg-navy text-white border-navy-700">
+            <div class="flex items-start justify-between mb-6">
+              <h3 class="text-[24px] font-[800] tracking-tight">Our Approach</h3>
+              <span class="text-[12px] font-[800] text-[#3d5d85] tracking-widest">02</span>
+            </div>
+            <div class="zenith-divider mb-6"></div>
+            <p class="text-[16.5px] leading-relaxed text-[#c8d6e8]">
+              At Zenith School, learning goes beyond textbooks by encouraging creativity, critical thinking, and personal growth.
+            </p>
+            <div class="mt-7 grid sm:grid-cols-2 gap-4 text-[13.5px]">
+              <div class="bg-white/[0.06] rounded-xl px-4 py-3 border border-white/10">Concept-first teaching</div>
+              <div class="bg-white/[0.06] rounded-xl px-4 py-3 border border-white/10">Weekly assessments</div>
+              <div class="bg-white/[0.06] rounded-xl px-4 py-3 border border-white/10">Remedial support</div>
+              <div class="bg-white/[0.06] rounded-xl px-4 py-3 border border-white/10">Parent progress reports</div>
+            </div>
+            <p class="mt-6 text-[13.5px] text-[#9fb3cc]">We blend BISE board excellence with modern pedagogy — practice, feedback, and care.</p>
+          </div>
+        </div><div class="soft-card p-9 lg:p-11 bg-white border border-slate-200">
+   <div class="soft-card p-9 lg:p-11 bg-white border border-slate-200">
+    <div class="flex items-start justify-between mb-6">
+        <div class="bg-navy-700 p-10 rounded-2xl transition-all duration-700 ease-in-out hover:shadow-gold-glow">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <img src="178101209469fa (1).png" class="rounded-xl w-full h-48 object-cover transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 shadow-soft hover:shadow-lg" alt="Gallery Image" />
+    <img src="178101223931b0.png" class="rounded-xl w-full h-48 object-cover transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 shadow-soft hover:shadow-lg" alt="Gallery Image" />
+    <img src="ab.jpeg" class="rounded-xl w-full h-48 object-cover transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 shadow-soft hover:shadow-lg" alt="Science Project" />
+    <img src="acf.jpeg" class="rounded-xl w-full h-48 object-cover transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 shadow-soft hover:shadow-lg" alt="Sports Photo Frame" />
+    <img src="acv.jpeg" class="rounded-xl w-full h-48 object-cover transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 shadow-soft hover:shadow-lg" alt="Sports Team" />
+    <img src="age.jpeg" class="rounded-xl w-full h-48 object-cover transition-all duration-500 ease-in-out hover:scale-105 hover:-translate-y-2 shadow-soft hover:shadow-lg" alt="Students with Paintings" />
+  </div>
+</div>   <!-- Principal note -->
+        <div class="mt-10 bg-white rounded-[22px] border border-slate-200 px-7 sm:px-10 py-7 flex flex-col md:flex-row items-start md:items-center gap-6 shadow-soft">
+          <img src="https://i.pravatar.cc/120?img=12" alt="" class="w-14 h-14 rounded-full object-cover ring-4 ring-navy-soft">
+          <div class="flex-1">
+            <p class="text-[15.5px] text-slate-700 italic">“Every child at Zenith is seen, supported, and stretched to their best. That’s our promise to Sukkur families.”</p>
+            <p class="text-[12.5px] font-[700] text-slate-500 mt-2">— Principal, Zenith Public High School</p>
+          </div>
+          <a href="#contact" class="text-[13.5px] font-[700] text-navy underline underline-offset-4 decoration-gold decoration-2 hover:text-navy-600">Book a campus visit →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMICS -->
+    <section id="academics" class="scroll-mt-24 bg-white">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-20 lg:py-28">
+        <div class="flex flex-wrap items-end justify-between gap-6 mb-12">
+          <div>
+            <div class="text-[11.5px] font-[800] tracking-widest text-gold-dark uppercase mb-3">Academics</div>
+            <h2 class="text-[34px] sm:text-[44px] font-[900] tracking-tight text-navy">A clear academic pathway.<br>Montessori to Class 10.</h2>
+          </div>
+          <div class="text-right">
+            <div class="text-[13px] font-bold text-slate-600">Levels Offered</div>
+            <div class="text-[22px] font-[900] text-navy tracking-tight">Montessori to Class 10</div>
+            <div class="text-[12.5px] text-slate-500">BISE Sukkur Curriculum</div>
+          </div>
+        </div>
+
+        <!-- Grade path -->
+        <div class="soft-card p-6 sm:p-8 mb-14">
+          <div class="flex flex-wrap gap-2.5 mb-4 text-[12.5px] font-[700] text-slate-500">
+            <span>ACADEMIC TRACK</span>
+          </div>
+          <div class="flex flex-wrap gap-2.5">
+            <span class="grade-pill">Montessori</span>
+            <span class="grade-pill">Prep</span>
+            <span class="grade-pill">Class 1</span>
+            <span class="grade-pill">Class 2</span>
+            <span class="grade-pill">Class 3</span>
+            <span class="grade-pill">Class 4</span>
+            <span class="grade-pill">Class 5</span>
+            <span class="grade-pill">Class 6</span>
+            <span class="grade-pill">Class 7</span>
+            <span class="grade-pill">Class 8</span>
+            <span class="grade-pill bg-gold-soft border-amber-200 text-navy">Class 9 – Science</span>
+            <span class="grade-pill bg-gold-soft border-amber-200 text-navy">Class 10 – Matric</span>
+          </div>
+          <p class="text-[13.5px] text-slate-500 mt-4">Focus streams in 9th/10th: Biology, Computer Science. Full BISE exam preparation with past paper practice.</p>
+        </div>
+
+        <!-- FEATURES GRID - 3 columns -->
+        <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <!-- Academic Excellence -->
+          <div class="soft-card p-8 hover:shadow-soft-lg transition-shadow">
+            <div class="feature-icon-wrap mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.9">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+              </svg>
+            </div>
+            <h3 class="text-[20px] font-[800] text-navy mb-2.5">Academic Excellence</h3>
+            <p class="text-[14.8px] leading-relaxed text-muted">Board-aligned lesson planning, weekly tests, and focused Matric prep. Clear rubrics and consistent feedback to build mastery.</p>
+            <ul class="mt-4 text-[13.5px] text-slate-600 space-y-1.5">
+              <li>• Daily homework support</li>
+              <li>• Model paper practice</li>
+              <li>• Result-driven tracking</li>
+            </ul>
+          </div>
+
+          <!-- Experienced Faculty -->
+          <div class="soft-card p-8 hover:shadow-soft-lg transition-shadow">
+            <div class="feature-icon-wrap mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.9">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h3 class="text-[20px] font-[800] text-navy mb-2.5">Experienced Faculty</h3>
+            <p class="text-[14.8px] leading-relaxed text-muted">Dedicated, subject-specialist teachers with years of board exam experience. Small groups for real attention.</p>
+            <ul class="mt-4 text-[13.5px] text-slate-600 space-y-1.5">
+              <li>• Regular teacher training</li>
+              <li>• Parent-teacher meetings</li>
+              <li>• Remedial classes</li>
+            </ul>
+          </div>
+
+          <!-- State-of-Art Campus -->
+          <div class="soft-card p-8 hover:shadow-soft-lg transition-shadow">
+            <div class="feature-icon-wrap mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-[22px] h-[22px]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.9">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+            </div>
+            <h3 class="text-[20px] font-[800] text-navy mb-2.5">State-of-Art Campus</h3>
+            <p class="text-[14.8px] leading-relaxed text-muted">Spacious airy classrooms, science lab, computer room, library, and safe play areas — built for learning.</p>
+            <ul class="mt-4 text-[13.5px] text-slate-600 space-y-1.5">
+              <li>• Science & Computer labs</li>
+              <li>• Library & reading corner</li>
+              <li>• CCTV monitored campus</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Subject bands -->
+        <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-[13.5px]">
+          <div class="bg-cream rounded-2xl border border-slate-200 px-5 py-4"><span class="font-[800] text-navy">Core:</span> English, Urdu, Math, Science, Islamiat, SST</div>
+          <div class="bg-cream rounded-2xl border border-slate-200 px-5 py-4"><span class="font-[800] text-navy">Matric:</span> Physics, Chemistry, Biology / Computer</div>
+          <div class="bg-cream rounded-2xl border border-slate-200 px-5 py-4"><span class="font-[800] text-navy">Skills:</span> IT Basics, Public Speaking, Handwriting</div>
+          <div class="bg-cream rounded-2xl border border-slate-200 px-5 py-4"><span class="font-[800] text-navy">Values:</span> Adab, Discipline, Community Care</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMISSIONS CTA BAND -->
+    <section id="admissions" class="scroll-mt-24 bg-gold">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-16 lg:py-20">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+          <div>
+            <div class="text-[11.5px] font-[800] tracking-widest text-navy/70 uppercase mb-3">Admissions 2025–2026</div>
+            <h2 class="text-[32px] sm:text-[40px] font-[900] tracking-tight text-navy leading-tight">Admissions are open. Limited seats per section.</h2>
+            <p class="text-[15.5px] text-[#2a2100]/80 mt-3 max-w-xl">Visit campus for an assessment and meet our coordinators. Scholarships available on merit & need basis.</p>
+          </div>
+          <div class="flex flex-wrap gap-3 shrink-0">
+            <button id="admissionsApplyBtn" class="bg-navy text-white font-[800] text-[14px] px-6 py-3.5 rounded-full hover:bg-navy-700 transition shadow-lg">
+              Apply Now
+            </button>
+            <a href="#contact" class="bg-white text-navy font-[800] text-[14px] px-6 py-3.5 rounded-full hover:bg-[#fffcf3] transition border border-amber-300/70">
+              Visit Campus
+            </a>
+          </div>
+        </div>
+
+        <!-- Steps -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 text-[13.5px] font-semibold text-navy/85">
+          <div class="bg-white/55 rounded-2xl px-5 py-4 border border-amber-400/40"><span class="text-navy/50 mr-2">01</span> Inquiry / Campus Visit</div>
+          <div class="bg-white/55 rounded-2xl px-5 py-4 border border-amber-400/40"><span class="text-navy/50 mr-2">02</span> Assessment</div>
+          <div class="bg-white/55 rounded-2xl px-5 py-4 border border-amber-400/40"><span class="text-navy/50 mr-2">03</span> Admission Offer</div>
+          <div class="bg-white/55 rounded-2xl px-5 py-4 border border-amber-400/40"><span class="text-navy/50 mr-2">04</span> Enrollment</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAMPUS LIFE / TESTIMONIAL -->
+    <section class="bg-cream border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-20 lg:py-24">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-6">
+            <div class="text-[11.5px] font-[800] tracking-widest text-gold-dark uppercase mb-3">Campus Life</div>
+            <h3 class="text-[30px] sm:text-[36px] font-[900] text-navy tracking-tight leading-tight mb-4">More than classes.<br>A place to grow up well.</h3>
+            <p class="text-muted text-[15.8px] leading-relaxed mb-6">Debates, science fairs, sports days, Quran recitation, and art — our students learn discipline, teamwork, and confidence alongside strong academics.</p>
+            <div class="grid grid-cols-2 gap-3 text-[13.5px] text-slate-700">
+              <div class="bg-white rounded-xl border border-slate-200 px-4 py-3">Annual Sports Day</div>
+              <div class="bg-white rounded-xl border border-slate-200 px-4 py-3">Science Exhibition</div>
+              <div class="bg-white rounded-xl border border-slate-200 px-4 py-3">Speech Competitions</div>
+              <div class="bg-white rounded-xl border border-slate-200 px-4 py-3">Art & Calligraphy</div>
+            </div>
+          </div>
+          <div class="lg:col-span-6">
+            <div class="soft-card p-8 lg:p-10">
+              <div class="flex gap-1 text-amber-500 mb-4" aria-hidden="true">
+                ★★★★★
+              </div>
+              <p class="text-[17.5px] leading-relaxed text-slate-800">“My two children study at Zenith. Teachers are caring, regular tests keep them on track, and the Matric prep was excellent. We saw real improvement in confidence and results.”</p>
+              <div class="mt-5 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-navy-soft flex items-center justify-center text-navy font-bold text-sm">MA</div>
+                <div>
+                  <div class="font-[700] text-navy text-[14px]">Parent of Class 9 & Class 4 students</div>
+                  <div class="text-[12.5px] text-slate-500">Sukkur</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer id="contact" class="scroll-mt-24 bg-navy text-[#c9d6e6]">
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-16 lg:py-20">
+        <div class="grid lg:grid-cols-12 gap-12">
+          <!-- Left brand -->
+          <div class="lg:col-span-5">
+            <div class="flex items-center gap-3.5 mb-4">
+              <div class="w-11 h-11 rounded-[13px] bg-white/8 border border-white/15 flex items-center justify-center">
+                <span class="text-[22px] font-[800] text-gold">Z</span>
+              </div>
+              <div>
+                <div class="font-extrabold text-white text-[18px]">Zenith Public High School</div>
+                <div class="text-[11.5px] tracking-widest text-[#7f92ab] uppercase font-semibold">Sukkur</div>
+              </div>
+            </div>
+            <p class="text-[14.5px] leading-relaxed text-[#a9bbd2] max-w-md">A trusted BISE Sukkur registered school serving families in Sukkur since 1998. Montessori to Class 10, with a focus on character, clarity, and consistent results.</p>
+          </div>
+
+          <!-- Contact details -->
+          <div class="lg:col-span-4">
+            <div class="text-[11px] font-[800] tracking-widest text-[#6f86a3] uppercase mb-4">Contact</div>
+            <div class="space-y-3 text-[15px]">
+              <div>
+                <div class="text-[#8a9fb8] text-[12.5px]">Phone</div>
+                <a href="tel:+923337101006" class="hover:text-gold transition font-semibold text-white">0333 7101006</a><span class="text-[#5c708a]"> , </span>
+                <a href="tel:+923323893131" class="hover:text-gold transition font-semibold text-white">0332 3893131</a>
+              </div>
+              <div>
+                <div class="text-[#8a9fb8] text-[12.5px]">Email</div>
+                <a href="mailto:zenithpss@gmail.com" class="hover:text-gold transition font-semibold text-white">zenithpss@gmail.com</a>
+              </div>
+              <div>
+                <div class="text-[#8a9fb8] text-[12.5px]">Address</div>
+                <div class="font-medium text-[#d6e2f0]">Dadu Chowk, Shikarpur Road, Sukkur</div>
+              </div>
+              <div>
+               <div class="text-[#8a9fb8] text-[12.5px]">School Hours</div>
+<div class="text-[#d6e2f0] font-medium text-[14.5px] mt-2 mb-4">Mon - Sat, 7:45 AM - 1:30 PM</div>
+<div>
+  <div class="text-[#8a9fb8] text-[12.5px] mb-2">Follow Us</div>
+  <div class="space-x-2">
+    <a href="https://www.instagram.com/zenith_official267" target="_blank" class="hover:text-gold transition font-semibold text-white">Instagram</a>
+    <span class="text-white">/</span>
+    <a href="https://www.facebook.com/Meeranbux88" target="_blank" class="hover:text-gold transition font-semibold text-white">Facebook</a>
+  </div>
+</div>
+          <!-- Quick links -->
+          <div class="lg:col-span-3">
+            <div class="text-[11px] font-[800] tracking-widest text-[#6f86a3] uppercase mb-4">Quick Links</div>
+            <ul class="space-y-2.5 text-[14.5px] text-[#b8c8da]">
+              <li><a href="#about" class="hover:text-gold transition">About Us</a></li>
+              <li><a href="#academics" class="hover:text-gold transition">Academics</a></li>
+              <li><a href="#admissions" class="hover:text-gold transition">Admissions</a></li>
+              <li><button id="footerApplyBtn" class="hover:text-gold transition">Apply Online</button></li>
+              <li><a href="#contact" class="hover:text-gold transition">Visit Campus</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-white/10 mt-12 pt-7 flex flex-col md:flex-row items-center justify-between gap-4 text-[12.5px] text-[#7d90a8]">
+          <p>© <span id="year"></span> Zenith Public High School, Sukkur. All rights reserved.</p>
+          <p>BISE Sukkur Registered • Montessori to Class 10</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Apply Modal -->
+  <div id="applyModal" class="fixed inset-0 z-[70] hidden" aria-hidden="true">
+    <div id="applyBackdrop" class="absolute inset-0 bg-navy/60 backdrop-blur-sm"></div>
+    <div class="relative min-h-full flex items-center justify-center p-4">
+      <div class="bg-white w-full max-w-xl rounded-[24px] shadow-soft-lg border border-slate-200 overflow-hidden" role="dialog" aria-modal="true" aria-labelledby="applyTitle">
+        <div class="px-7 sm:px-9 pt-7 pb-6 border-b border-slate-100 flex items-start justify-between">
+          <div>
+            <div class="text-[11px] font-[800] text-gold-dark tracking-widest uppercase">Zenith Public High School</div>
+            <h3 id="applyTitle" class="text-[24px] font-[900] text-navy tracking-tight mt-1">Admission Inquiry</h3>
+            <p class="text-[13.5px] text-slate-500 mt-1">Session 2025–2026 • Montessori to Class 10</p>
+          </div>
+          <button id="closeApplyModal" class="w-9 h-9 rounded-full hover:bg-slate-100 flex items-center justify-center text-slate-500" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        <form id="applyForm" action="[https://formspree.io/f/xkoabypo]" method="POST" class="px-7 sm:px-9 py-7 space-y-4">                  <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-[12.5px] font-[700] text-slate-600">Parent / Guardian Name</label>
+              <input required name="parent" class="focus-ring mt-1.5 w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-[14.5px]" placeholder="Full name">
+            </div>
+            <div>
+              <label class="text-[12.5px] font-[700] text-slate-600">Phone / WhatsApp</label>
+              <input required name="phone" class="focus-ring mt-1.5 w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-[14.5px]" placeholder="03xx xxxxxxx">
+            </div>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-[12.5px] font-[700] text-slate-600">Student Name</label>
+              <input name="student" class="focus-ring mt-1.5 w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-[14.5px]" placeholder="Student name">
+            </div>
+            <div>
+              <label class="text-[12.5px] font-[700] text-slate-600">Applying for Class</label>
+              <select name="grade" required class="focus-ring mt-1.5 w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-[14.5px] bg-white">
+                <option value="">Select class</option>
+                <option>Montessori</option>
+                <option>Prep</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+                <option>Class 6</option>
+                <option>Class 7</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="text-[12.5px] font-[700] text-slate-600">Email (optional)</label>
+            <input type="email" name="email" class="focus-ring mt-1.5 w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-[14.5px]" placeholder="you@example.com">
+          </div>
+          <div>
+            <label class="text-[12.5px] font-[700] text-slate-600">Message (optional)</label>
+            <textarea name="message" rows="3" class="focus-ring mt-1.5 w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-[14.5px]" placeholder="Any questions about admissions?"></textarea>
+          </div>
+          <div class="flex items-center justify-between gap-3 pt-2">
+            <p class="text-[12px] text-slate-500">We usually respond within the same working day. You can also call <a href="tel:+923337101006" class="text-navy underline">0333 7101006</a>.</p>
+            <button type="submit" class="shrink-0 bg-gold hover:bg-gold-dark text-navy font-[800] px-5 py-3 rounded-full text-[13.5px] transition">Submit Inquiry</button>
+          </div>
+        </form>
+        <div id="applySuccess" class="hidden px-7 sm:px-9 py-10 text-center">
+          <div class="w-12 h-12 bg-green-50 text-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <h4 class="text-[20px] font-[800] text-navy">Inquiry received</h4>
+          <p class="text-slate-600 mt-2 text-[14.5px]">Thank you! Our admissions team will contact you shortly at the number you provided.</p>
+          <button id="closeSuccessBtn" class="mt-5 bg-navy text-white font-bold px-5 py-2.5 rounded-full text-[13.5px]">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-5 left-1/2 -translate-x-1/2 bg-navy text-white px-4 py-3 rounded-full text-[13px] font-semibold shadow-soft-lg opacity-0 pointer-events-none transition-all duration-300 z-[80]">
+    Inquiry submitted successfully.
+  </div>
+
+<script>
+  const yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // Mobile nav
+  const mobileBtn = document.getElementById('mobileMenuBtn');
+  const mobileNav = document.getElementById('mobileNav');
+  const menuIconOpen = document.getElementById('menuIconOpen');
+  const menuIconClose = document.getElementById('menuIconClose');
+  let mobileOpen = false;
+  function toggleMobile() {
+    mobileOpen = !mobileOpen;
+    mobileNav.classList.toggle('hidden', !mobileOpen);
+    menuIconOpen.classList.toggle('hidden', mobileOpen);
+    menuIconClose.classList.toggle('hidden', !mobileOpen);
+  }
+  mobileBtn.addEventListener('click', toggleMobile);
+  document.querySelectorAll('.mobile-nav-link').forEach(a => {
+    a.addEventListener('click', () => { if(mobileOpen) toggleMobile(); });
+  });
+
+  // Active nav link on scroll
+  const sections = ['home','about','academics','admissions','contact'];
+  const navLinks = document.querySelectorAll('.nav-link');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        const id = entry.target.id;
+        navLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+        });
+      }
+    });
+  }, { rootMargin: "-40% 0px -55% 0px" });
+  sections.forEach(id => { const el = document.getElementById(id); if(el) observer.observe(el); });
+
+  // Apply modal
+  const applyModal = document.getElementById('applyModal');
+  function openApply() {
+    applyModal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    document.getElementById('applyForm').classList.remove('hidden');
+    document.getElementById('applySuccess').classList.add('hidden');
+  }
+  function closeApply() {
+    applyModal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+  ['applyBtnDesktop','heroApplyBtn','admissionsApplyBtn','footerApplyBtn','applyBtnMobile'].forEach(id => {
+    const btn = document.getElementById(id);
+    if(btn) btn.addEventListener('click', openApply);
+  });
+  document.getElementById('closeApplyModal').addEventListener('click', closeApply);
+  document.getElementById('applyBackdrop').addEventListener('click', closeApply);
+  document.getElementById('closeSuccessBtn')?.addEventListener('click', closeApply);
+  document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeApply(); });
+
+  // Form submit (demo)
+  const applyForm = document.getElementById('applyForm');
+  applyForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    applyForm.classList.add('hidden');
+    document.getElementById('applySuccess').classList.remove('hidden');
+    showToast('Admission inquiry sent. We will call you soon.');
+  });
+
+  function showToast(msg){
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.style.opacity = '1';
+    t.style.transform = 'translate(-50%, 0)';
+    setTimeout(()=>{
+      t.style.opacity = '0';
+      t.style.transform = 'translate(-50%, 12px)';
+    }, 2800);
+  }
+</script>
+</body>
+</html>
